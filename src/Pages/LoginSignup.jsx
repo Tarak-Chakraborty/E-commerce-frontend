@@ -17,7 +17,7 @@ import './CSS/LoginSignup.css'
   const login = async ()=>{
     console.log("Login Function Executed",formData)
     let responseData;
-    await fetch('http://localhost:4000/login',{
+    await fetch('http://e-commerce-backend-sandy.vercel.app/login',{
       method:"POST",
       headers:{
         Accept:'application/form-data', 
@@ -39,7 +39,7 @@ import './CSS/LoginSignup.css'
   const signup = async ()=>{
     console.log("Sign Up Function Executed",formData)
     let responseData;
-    await fetch('http://localhost:4000/signup',{
+    await fetch('http://e-commerce-backend-sandy.vercel.app/signup',{
       method:"POST",
       headers:{
         Accept:'application/form-data',
